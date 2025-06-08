@@ -9,16 +9,16 @@ body {
     background: #ffff;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    height: 100vh;
     align-items: center;
     font-family: "Archivo", sans-serif;
 }
-main {
-    
-    
+#inicio {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
 }
-#saudacao {
-}
+
 .primeiraFrase {
     font-size: 20px;
     font-weight: 500;
@@ -37,23 +37,104 @@ main {
     letter-spacing: 0;
     margin-top: 2vh;
 }
-
-form {
-    margin-top: 5vh;
+#emailSenha {
     display: flex;
     flex-direction: column;
     gap: 12px;
 
 }
-input {
+.cadastro {
     width: 40vh;
-    height: 46px;
+    height: 5vh;
     border-radius: 4px;
     border: 1px solid black;
     padding: 16px;
     gap: 8px;
     background-color: #E8E8E8;
 }
-label {
-   
+#lembraDemim {
+    padding-top: 2vh;
+    display: flex;
+    gap: 10px;
+}
+.lembra {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 111px;
+    height: 17px;
+}
+.separa {
+    padding-left: 2vh;
+}
+a {
+    text-decoration: none;
+}
+.esqueceu {
+    font-weight: 500;
+    font-size: 16px;
+    width: 160px;
+    height: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1E9E6A;
+}
+#botao {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1vh;
+}
+button {
+    margin-top: 2vh;
+    width: 40vh;
+    height: 6vh;
+    border-radius: 4px;
+    padding-top: 2vh;
+    padding-right: 3vh;
+    padding-bottom: 4vh;
+    padding-left: 2vh;
+}
+.entrar {
+    background-color: #1E9E6A;
+}
+.fraseEntrar {
+    color: #FFFFFF;
+}
+.googles {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 12px;
+    background-color: #1A202C;
+    
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    
+}
+.entrarGoogles {
+    color: #FFFFFF;
+}
+
+#semConta {
+    display: flex;
+    align-items: center;
+}
+#semConta {
+    width: 302px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    gap: 2px;
+    
+    
+}
+.criar {
+    color: #1E9E6A;
 }

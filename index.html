@@ -7,20 +7,48 @@
     <title>Login</title>
 </head>
 <body>
-    <main>
-        <div id="saudacao" >
+    <div id="inicio">
+        <div class="saudacao">
             <p class="primeiraFrase">Bem-vindo de volta</p>
             <p class="segundaFrase">Faça login na sua conta</p>
-            <section>
-                <form action="">
-                    <label for="email">E-mail</label>
-                    <input type="email" placeholder="exemplo@gmail.com">
-                    <label for="senha">Senha</label>
-                    <input type="password" placeholder="0123456789">
-                </form>
-            </section>
         </div>
-    </main>
+        <!--Cadastro-->
+        <form action="processar.html" method="get">
+            <div id="emailSenha">
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="exemplo@gmail.com" class="cadastro">
+                    <label for="senha">Senha</label>
+                    <input type="password" placeholder="0123456789" class="cadastro">
+            </div>
+            <div id="lembraDemim">
+                    <input type="checkbox" name="lembra">
+                    <label for="lembra">Lembre de mim</label>
+                    <div class="separa">
+                        <a href="#" class="esqueceu">
+                            Esqueceu sua senha?
+                        </a>
+                    </div>
+            </div>
+            <!--Entra ou com googles-->
+            <div id="botao">
+                <button class="entrar">
+                    <p class="fraseEntrar">Entrar na conta</p>
+                </button>
+                <button class="googles">
+                    <p>
+                        <img src="imagem/icon.png" alt="">
+                    </p>
+                    <p class="entrarGoogles">
+                        Ou faça login com o Google
+                    </p>
+                </button>
+            </div>
+        </form>
+        <!--Sem conta-->
+        <p id="semConta">
+                Não tem uma conta? <a href="#" class="criar">Cadastre-se</a>
+        </p>
+    </div>
     
 </body>
 </html>
