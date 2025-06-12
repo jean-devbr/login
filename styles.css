@@ -91,10 +91,13 @@ button {
     width: 40vh;
     height: 6vh;
     border-radius: 4px;
-    padding-top: 2vh;
-    padding-right: 3vh;
-    padding-bottom: 4vh;
-    padding-left: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vh;
+    align-items: center;
+    
+   
 }
 .entrar {
     background-color: #1E9E6A;
@@ -103,21 +106,24 @@ button {
     color: #FFFFFF;
 }
 .googles {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    gap: 12px;
+    
     background-color: #1A202C;
+    
     
 }
 
 img {
-    width: 24px;
-    height: 24px;
+    width: 3vh;
+    height: 3vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
     
 }
 .entrarGoogles {
     color: #FFFFFF;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
 }
 
 #semConta {
